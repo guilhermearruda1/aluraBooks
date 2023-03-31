@@ -1,0 +1,42 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
+
+/* Media Queries Tablet*/
+@import url("MediaQueryTablet/banner-tablet-media-query.css");
+@import url("MediaQueryTablet/carrossel-tablet-media-query.css");
+@import url("MediaQueryTablet/contato-tablet-media-query.css");
+@import url("MediaQueryTablet/header-tablet-media-query.css");
+@import url("MediaQueryTablet/rodape-tablet-media-query.css");
+@import url("MediaQueryTablet/topicos-tablet-media-query.css");
+
+/* Media Queries Desktop*/
+@import url("MediaQueryDesktop/banner-desktop-media-query.css");
+@import url("MediaQueryDesktop/carrossel-desktop-media-query.css");
+@import url("MediaQueryDesktop/contato-desktop-media-query.css");
+@import url("MediaQueryDesktop/header-desktop-media-query.css");
+@import url("MediaQueryDesktop/rodape-desktop-media-query.css");
+@import url("MediaQueryDesktop/topicos-desktop-media-query.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Josefin Sans';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
