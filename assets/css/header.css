@@ -48,7 +48,7 @@
 .container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
     /* ~ -> procura elemento que esteja em seguida dele que tenha essa classe */
     /* > -> procura algo dentro deste elemento */
-    background-image: url("/assets/img/MenuAberto.svg");
+    background-image: url("./assets/img/MenuAberto.svg");
 }
 
 .container__botao:checked ~ .container__rotulo {
